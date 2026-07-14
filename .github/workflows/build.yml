@@ -1,10 +1,9 @@
 # action.yml
 name: 'build vllm for intel xpu'
-description: 'Build vllm for intel xpu'
 
 on:
   push:
-    - branches:
+    branches:
       - main
   workflow_dispatch:
 
